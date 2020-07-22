@@ -1,8 +1,9 @@
 class Transfer
-  attr_accessor :bankaccount, :name
+  attr_accessor :sender, :receiver
 
-def initialize(name)
-@name=name
+def initialize(sender, receiver)
+@sender=sender
+@reciever=reciever 
 end
 
 
