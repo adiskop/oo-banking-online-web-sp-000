@@ -5,6 +5,7 @@ def initialize(sender, receiver, amount)
 @sender=sender
 @reciever=reciever
 @status="pending"
+@amount=amount
 end
 
 
