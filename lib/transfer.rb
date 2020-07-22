@@ -21,7 +21,7 @@ sender.balance= sender.balance-amount
 receiver.balance=receiver.balance+amount
 self.status="complete"
 else
- puts"Transaction rejected. Please check your account balance."
+    reject_transfer
 end
 end
 
