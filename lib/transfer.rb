@@ -16,7 +16,7 @@ def valid?
 end
 
 def execute_transaction
-
+self.execute_transaction
 
 end
 
